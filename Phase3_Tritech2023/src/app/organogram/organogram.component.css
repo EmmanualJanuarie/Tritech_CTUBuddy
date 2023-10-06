@@ -1,0 +1,174 @@
+#president{
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size:80px;
+    width: 30%;
+
+    /* positioning */
+    position: relative;
+    left:35%;
+    top:190px;
+}
+
+#vice_president{
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size:80px;
+    width: 30%;
+
+     /* positioning */
+     position: relative;
+     left:75%;
+     top:190px;
+   
+}
+
+#group_member{
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size:80px;
+    width: 30%;
+
+     /* positioning */
+     position: relative;
+     right:0%;
+     bottom:200px;
+     
+   
+}
+
+
+.box{
+    width:50%;
+}
+
+
+.hr1 {
+    border: none;
+    border-top: 5px solid #333; /* you can choose the color of the line */
+    max-width: 20%;
+  
+    color: #333; /* this is the color of the text */
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    transform: rotate(90deg);
+
+    position: relative;
+    left: 40%;
+    bottom:830px;
+}
+
+.hr2 {
+    border: none;
+    border-top: 5px solid #333; /* you can choose the color of the line */
+    max-width: 35%;
+  
+    
+  
+    color: #333; /* this is the color of the text */
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    transform: rotate(0deg);
+
+    position: relative;
+    left: 34%;
+    bottom:700px;
+}
+
+
+
+.media-content{
+    font-size:20px;
+}
+
+#roles:hover{
+color:orange;
+cursor: pointer;
+}
+
+svg{
+   position: relative;
+   right: 3%;
+   display: none;
+   
+}
+
+ #card :hover > svg{
+    display: inline-block;
+}
+
+.title{
+    color:black;
+    position: relative;
+    left:24%;
+    top:40px;
+    font-size: 80px;
+}
+
+@media screen and (max-width:414px){
+    .title{
+      font-size:20px;
+      width: 60%;
+    }
+
+    #president{
+        width: 60%;
+        position: relative;
+        left:19%;
+        top:50px;
+    
+    }
+
+    #card :hover > svg{
+        display: inline-block;
+    }
+
+    svg{
+        display: none;
+        
+     }
+     #roles:hover{
+        color:orange;
+        }
+
+        .hr1 {
+            position: relative;
+            left:0px;    
+            max-width: 100%; 
+            bottom:620px;
+        
+        }
+        
+        .hr2 {
+            max-width: 5%; 
+
+            position: relative;
+            bottom:440px;
+            left:170px;
+        }
+
+      
+
+        #vice_president{
+            width: 40%;
+            position: relative;
+
+            left:200px;
+            top:240px;
+        }
+        
+        #group_member{
+            width: 40%;
+            position: relative;
+        }
+
+    
+        
+
+}
+
