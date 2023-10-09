@@ -27,7 +27,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 
-<!---------------------------------------- To Simon Agar --------------------------------------------------->
+
 install angular (follow steps:)
 1. Go to cmd Prompt
 2. enter: "npm install -g @angular/cli"   This will install the latest angular cli(Type it in as the spaces are presented)
